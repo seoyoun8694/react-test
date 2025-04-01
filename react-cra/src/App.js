@@ -1,6 +1,25 @@
 import styles from './App.module.css';
 import './App.css';
 
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
+
+// function BasicExample() {
+//   return (
+//     <Card style={{ width: '18rem' }}>
+//       <Card.Img variant="top" src="holder.js/100px180" />
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Button variant="primary">Go somewhere</Button>
+//       </Card.Body>
+//     </Card>
+//   );
+// }
+
 // function Header(props) {
 //     return (
 //         <header>
@@ -50,7 +69,7 @@ function Avatar({ user }) {
 function App() {
     const commentData = {
         author: {
-            avatarUrl: '링크',
+            avatarUrl: 'https://dynamic-assets.gather.town/v2/sprite-profile/avatar-Owh3rJLGGrWnafZevZoC.ZQ4DcK9PT2-stmXKVLvZ.lcJ74Jl6INXyPVTbRoKT.vdnti6Tz8SG2FOgpRHEe.KFOXd8cXRQiL4ErRJIGf.nwdH0ijelAkDv8UDRpfF.DAo9kwUIS6yeWO7ihtpw.png?d=.',
             name: '서윤'
         },
         text: '설명',
