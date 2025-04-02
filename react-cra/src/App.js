@@ -5,11 +5,19 @@ import Nav from './Nav';
 
 function App() {
     const [list, setList] = useState(['HTML', 'CSS', 'JavaScript']);
+    const [hide, setHide] = useState(false);
 
     return (
         <div className="App">
-            <Header title="WEB"
+            <button onClick={() => {
+                setHide(!hide);
+            }}>숨기기</button>
+            {
+                hide ?
+                null : 
+                <Header title="WEB"
                 desc="World Wide Web!"></Header>
+            }
             <Nav list={list}></Nav>
         </div>
     );

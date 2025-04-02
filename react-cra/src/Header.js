@@ -6,6 +6,9 @@ function Header(props) {
 
     useEffect(() => {
         console.log('처음에만 실행!');
+        return () => {
+            console.log('header 소멸');
+        }
     }, []);
 
     useEffect(() => {
