@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import Section from './Section';
 import Header from './Header';
 import Article from './Article';
@@ -20,6 +18,7 @@ function App() {
     '4. 126 - 숫자는 전부 맞지만 위치는 6만 맞고 나머지 둘은 다르므로 1스트라이크 2볼.',
     '5. 216 - 전부 맞으므로 승리.'
   ];
+
   return (
     <div className="App">
       <Header></Header>
